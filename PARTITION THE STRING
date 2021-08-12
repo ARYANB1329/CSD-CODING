@@ -1,0 +1,19 @@
+# Partition the words in the list at the letter "e", place the letter before 'e' in one list and letters after 'e' in another list
+# ARYAN SIDDHABATHULA 121910313029
+
+inp_nums=['help','write','yellow','madhu']
+ks=[]
+pt1=[]
+pt2=[]
+inp=[]
+for i in inp_nums:
+    if 'e' in i:
+        inp.append(i)
+for i in inp:
+    ks=i.split('e')
+    pt1.append(ks[0])
+    pt2.append(ks[1])
+pt=[]
+pt.append(pt1)
+pt.append(pt2)
+print(pt)
