@@ -1,0 +1,14 @@
+# To find the sum of digits in the list and multiply them with the no of digits in the list
+# ARYAN SIDDHABATHULA 121910313029
+
+
+list = list(map(int,input("Enter elements of list:").split()))
+print(list)
+total = 0
+count = 0
+for i in range(len(list)):
+    if (list[i] != 0):
+        total = total + list[i]
+        count=count+1
+x = total*count
+print(x)
