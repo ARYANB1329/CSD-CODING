@@ -18,7 +18,5 @@ def pangram(input):
         return 'false'
 
 
-# Driver program
-if _name_ == "_main_":
-    input = 'The quick brown fox jumps over the lazy dog'
-    print(pangram(input))
+input = 'The quick brown fox jumps over the lazy dog'
+print(pangram(input))
